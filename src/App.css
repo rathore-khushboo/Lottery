@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.menu-button {
+  top: 1rem; /* Adjust as needed */
+  left: 1rem; /* Adjust as needed */
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .menu-button {
+    top: 2rem; /* Adjust as needed for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-button {
+    top: 3rem; /* Adjust as needed for medium screens */
+  }
+}
+
